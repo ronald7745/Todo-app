@@ -1,0 +1,35 @@
+.task{
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.buttonContainer{
+  display: flex;
+  gap: 3px;
+}
+
+.delete{
+  background-color: transparent;
+  width: 60px;
+  height: 30px;
+}
+
+.edit{
+  background-color: transparent;
+  width: 60px;
+  height: 30px;
+}
+
+.complete{
+  background-color: transparent;
+  width: 60px;
+  height: 30px;
+}
+
+.completed{
+  color: green;
+
+}
